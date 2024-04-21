@@ -30,7 +30,6 @@ const CurrencyConverter = () => {
     fetchCurrencies();
   }, []);
 
-  console.log(currencies);
 
   // Conversion -> https://api.frankfurter.app/latest?amount=1&from=USD&to=INR
   const convertCurrency = async () => {
